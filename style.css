@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+.info{
+    display: flex;
+}
+.info div{
+    margin: 1em 2em;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    max-height: 600px;
+    margin: 0 auto;
+}
+
+.grid .square{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+}
+
+.grid .square.mole{
+    background-color: blueviolet;
+}
